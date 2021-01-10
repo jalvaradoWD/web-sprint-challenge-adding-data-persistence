@@ -13,8 +13,7 @@ exports.seed = function (knex) {
           resource_description:
             "Perspiciatis eaque ut ipsa et. Perferendis rerum quas temporibus architecto placeat quas. Excepturi consequatur occaecati quidem. Enim iste fugit aut id delectus. Expedita voluptatem magnam voluptatem. Alias nam dolor doloribus quam voluptas ullam.",
         });
-
-        return knex("resources").insert(test);
       }
+      return knex("resources").insert(test);
     });
 };

@@ -15,8 +15,7 @@ exports.seed = function (knex) {
           task_completed: false,
           project_id: i,
         });
-
-        return knex("tasks").insert(test);
       }
+      return knex("tasks").insert(test);
     });
 };
